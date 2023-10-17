@@ -314,6 +314,16 @@
 	status = "okay";
 };
 
+&sdmmc1 {
+	pinctrl-names = "default";
+	pinctrl-0 = <&sdmmc1_b4_pins_a>;
+	disable-wp;
+	st,neg-edge;
+	bus-width = <4>;
+	vmmc-supply = <&v3v3>;
+	status = "okay";
+};
+
 &sdmmc2 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&sdmmc2_b4_pins_a &sdmmc2_d47_pins_x>;
