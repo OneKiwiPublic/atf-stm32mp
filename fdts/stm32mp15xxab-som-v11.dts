@@ -10,13 +10,13 @@
 #include "stm32mp15xa.dtsi"
 #include "stm32mp15-pinctrl.dtsi"
 #include "stm32mp15xxab-pinctrl.dtsi"
-#include "stm32mp157a-som-v11-pin.dtsi"
-#include "stm32mp157a-som-v11.dtsi"
+#include "stm32mp15xxab-som-v11-pin.dtsi"
+#include "stm32mp15xxab-som-v11.dtsi"
 #include <dt-bindings/soc/st,stm32-etzpc.h>
 
 / {
 	model = "OneKiwi STM32MP15xxAB SOM v1.1 (STM32MP157AAB)";
-	compatible = "st,stm32mp157a-som-v11", "st,stm32mp157";
+	compatible = "st,stm32mp15xxab-som-v11", "st,stm32mp157";
 
 	aliases {
 		serial0 = &uart4;
